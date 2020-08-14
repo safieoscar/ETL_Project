@@ -1,7 +1,0 @@
-api_key = "d6c1d3c0-48a3-4c29-be10-17b9d9d6ca49"
-
-key = "eaa3134100d2467c986b21a03a36bce7"
-
-breezo = "2255dd028350453a9bcb8b34cddb9659"
-
-token = "b985c1a961c8943d2a0b81d0e3d44db81ce3ed56"
