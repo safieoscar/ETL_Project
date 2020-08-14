@@ -1,4 +1,4 @@
-CREATE TABLE "AQI_Metrics"
+CREATE TABLE "AQI_Metrics"(
     "City" varchar(50) NOT NULL,
     "Population" int NOT NULL,
     "AQI" int NOT NULL,
@@ -11,24 +11,26 @@ CREATE TABLE "AQI_Metrics"
     )
 );
 
-CREATE TABLE "City_AQI"(
+CREATE TABLE "AQI_City"(
     "City" varchar(50) NOT NULL,
     "Population" int NOT NULL,
     "AQI" int NOT NULL,
-    "Change_in_Population" int NOT NULL,
-    Constraint "pk_City_AQIL" PRIMARY KEY (
+    "Population Growth" int NOT NULL,
+    Constraint "pk_City_AQI" PRIMARY KEY (
         "City"
     )
 
 );
 
-CREATE TABLE "City_IDX"(
+CREATE TABLE "IDX_City"(
     "City" varchar(50) NOT NULL,
     "Population" int NOT NULL, 
     "IDX" int NOT NULL,
+    "Population Growth" double NOT NULL, 
     CONSTRAINT "pk_City_IDX" PRIMARY KEY (
         "City"
     )
 );
+
 
 
