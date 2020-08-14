@@ -15,5 +15,5 @@ We singled out the factors that we wanted from the API and established them into
 Load
 ---
 ######
-We will be using a relational Postgres SQL database as our final production database. we wrote password in for the password needed for the Postgres file. The final tables will include, a table that looks at cities, population of those cities, the Air Quality Index (AQI), and the change in population, as well as a table that looks at cities, populations, and Infections Disease Rates (IDX)
+We will be using a relational Postgres SQL database as our final production database. we wrote password in for the password needed for the Postgres file. The final tables will include, a table that looks at cities, population of those cities, the Air Quality Index (AQI), and the change in population, as well as a table that looks at cities, populations, and Infections Disease Rates (IDX).
 
