@@ -5,7 +5,7 @@ Shahil Jani & Oscar Safie
 Extract
 ---
 ######
-The sources we used a csv file on US population for each city/state from opendatasoft, a free online database, and an API call to the World Air’s Pollution Index, a databasethat that collects air quality data. We extracted the population data from the csv file into a new Pandas dataframe. We were able to extract the data we wanted from the API, using a for loop that looped through each city that matched up with the data we received from the population csv and extracted them into a Pandas dataframe. In order to ######save time and avoid rerunning the API request, we exported this dataframe into a csv file. 
+The sources we used a csv file on US population for each city/state from opendatasoft, a free online database, and an API call to the World Air’s Pollution Index, a databasethat that collects air quality data. We extracted the population data from the csv file into a new Pandas dataframe. We were able to extract the data we wanted from the API, using a for loop that looped through each city that matched up with the data we received from the population csv and extracted them into a Pandas dataframe. In order to save time and avoid rerunning the API request, we exported this dataframe into a csv file. 
 
 Transform
 ---
